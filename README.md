@@ -10,7 +10,7 @@ I will do this for fun only ;)
 
 ```zsh
     cd <YourFolder>
-    git clone https://github.com/Maxvyr/django-rest-server-example.git
+    git clone https://github.com/Maxvyr/django-rest-api.git
     cd django-rest-server-example/
     pip install -r requirements.txt
    python3 manage.py runserver
