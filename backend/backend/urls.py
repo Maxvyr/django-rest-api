@@ -18,10 +18,12 @@ from django.urls import path, include
 from rest_framework import routers
 from todo import views_todo
 from course import views_course
+from clients import views_clients
 
 router = routers.DefaultRouter()
 router.register(r'todos', views_todo.TodoView, 'todo')
-router.register(r'course', views_course.CourseView, 'course')
+router.register(r'courses', views_course.CourseView, 'course')
+router.register(r'clients', views_clients.ClientView, 'clients')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
