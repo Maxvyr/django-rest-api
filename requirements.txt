@@ -1,0 +1,14 @@
+asgiref==3.5.2
+certifi==2022.9.24
+distlib==0.3.6
+Django==4.1.2
+django-cors-headers==3.11.0
+djangorestframework==3.13.1
+filelock==3.8.0
+pipenv==2022.10.12
+platformdirs==2.5.2
+python-dotenv==0.19.2
+pytz==2021.3
+sqlparse==0.4.2
+virtualenv==20.16.5
+virtualenv-clone==0.5.7
